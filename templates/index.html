@@ -1,0 +1,284 @@
+
+<html> 
+<body> 
+	   <h3>Election Predictor</h3> 
+   <div> 
+       <form action="/result" method="POST"> 
+        <label for="voters">VOTERS</label> 
+	    <input type="text" id="voters" name="voters">
+	    <br>
+		<label for="constituency">CONSTITUENCY</label> 
+	    <select id="constituency" name="constituency"> 
+        <option value="0">GUMMIDIPUNDI</option>
+		<option value="1">PONNERI</option>
+		<option value="2">TIRUTTANI</option>
+		<option value="3">TIRUVALLUR</option>
+		<option value="4">POONAMALLEE</option>
+		<option value="5">AVADI</option>
+		<option value="6">MADURAVOYAL</option>
+		<option value="7">AMBATTUR</option>
+		<option value="8">MADAVARAM</option>
+		<option value="9">THIRUVOTTIYUR</option>
+		<option value="10">DR.RADHAKRISHNAN NAGAR</option>
+		<option value="11">PERAMBUR</option>
+		<option value="12">KOLATHUR</option>
+		<option value="13">VILLIVAKKAM</option>
+		<option value="14">THIRU-VI-KA-NAGAR</option>
+		<option value="15">EGMORE</option>
+		<option value="16">ROYAPURAM</option>
+		<option value="17">HARBOUR</option>
+		<option value="18">CHEPAUK-THIRUVALLIKENI</option>
+		<option value="19">THOUSAND LIGHTS</option>
+		<option value="20">ANNA NAGAR</option>
+		<option value="21">VIRUGAMPAKKAM</option>
+		<option value="22">SAIDAPET</option>
+		<option value="23">THIYAGARAYANAGAR</option>
+		<option value="24">MYLAPORE</option>
+		<option value="25">VELACHERY</option>
+		<option value="26">SHOZHINGANALLUR</option>
+		<option value="27">ALANDUR</option>
+		<option value="28">SRIPERUMBUDUR</option>
+		<option value="29">PALLAVARAM</option>
+		<option value="30">TAMBARAM</option>
+		<option value="31">CHENGALPATTU</option>
+		<option value="32">THIRUPORUR</option>
+		<option value="33">CHEYYUR</option>
+		<option value="34">MADURANTAKAM</option>
+		<option value="35">UTHIRAMERUR</option>
+		<option value="36">KANCHEEPURAM</option>
+		<option value="37">ARKONAM</option>
+		<option value="38">SHOLINGUR</option>
+		<option value="39">KATPADI</option>
+		<option value="40">RANIPET</option>
+        <option value="41">ARCOT</option>
+        <option value="42">VELLORE</option>
+        <option value="43">ANAICUT</option>
+        <option value="44">KILVAITHINANKUPPAM</option>
+        <option value="45">GUDIYATTAM</option>
+        <option value="46">VANIAYAMBADI</option>
+        <option value="47">AMBUR</option>
+        <option value="48">JOLARPET</option>
+        <option value="49">TIRUPATTUR</option>
+        <option value="50">UTHANGARAI</option>
+        <option value="51">BARGUR</option>
+        <option value="52">KRISHNAGIRI</option>
+        <option value="53">VEPPANAHALLI</option>
+        <option value="54">HOSUR</option>
+        <option value="55">THALLI</option>
+        <option value="56">PALACODE</option>
+        <option value="57">PENNAGARAM</option>
+        <option value="58">DHARMAPURI</option>
+        <option value="59">PAPPIREDDIPPATTI</option>
+        <option value="60">HARUR</option>
+        <option value="61">CHENGAM</option>
+        <option value="62">TIRUVANNAMALAI</option>
+        <option value="63">KILPENNATHUR</option>
+        <option value="64">KALASAPAKKAM</option>
+        <option value="65">POLUR</option>
+        <option value="66">ARANI</option>
+		<option value="67">CHEYYAR</option>
+        <option value="68">VANDAVASI</option>
+		<option value="69">GINGEE</option>
+		<option value="70">MAILAM</option>
+		<option value="71">TINDIVANAM</option>
+		<option value="72">VANUR</option>
+		<option value="73">VILLUPURAM</option>
+		<option value="74">VIKRAVANDI</option>
+		<option value="75">TIRUKKOYILUR</option>
+		<option value="76">ULUNDURPET</option>
+		<option value="77">RISHIVANDIYAM</option>
+		<option value="78">SANKARAPURAM</option>
+		<option value="79">KALLAKURICHI</option>
+		<option value="80">GANGAVALLI</option>
+		<option value="81">ATTUR</option>
+		<option value="82">YERCAUD</option>
+<option value="40">	OMALUR	</option>
+<option value="40">	METTUR	</option>
+<option value="40">	EDAPADI	</option>
+<option value="40">	SANKARI	</option>
+<option value="40">	SALEM (WEST)	</option>
+<option value="40">	SALEM (NORTH)	</option>
+<option value="40">	SALEM (SOUTH)	</option>
+<option value="40">	VEERAPANDI	</option>
+<option value="40">	RASIPURAM	</option>
+<option value="40">	SENTHAMANGALAM	</option>
+<option value="40">	NAMAKKAL	</option>
+<option value="40">	PARAMATHI-VELUR	</option>
+<option value="40">	TIRUCHENGODU	</option>
+<option value="40">	KUMARAPALAYAM	</option>
+<option value="40">	ERODE (EAST)	</option>
+<option value="40">	ERODE (WEST)	</option>
+<option value="40">	MODAKKURICHI	</option>
+<option value="40">	DHARAPURAM	</option>
+<option value="40">	KANGAYAM	</option>
+<option value="40">	PERUNDURAI	</option>
+<option value="40">	BHAVANI	</option>
+<option value="40">	ANTHIYUR	</option>
+<option value="40">	GOBICHETTIPALAYAM	</option>
+<option value="40">	BHAVANISAGAR	</option>
+<option value="40">	UDHAGAMANDALAM	</option>
+<option value="40">	GUDALUR	</option>
+<option value="40">	COONOOR	</option>
+<option value="40">	METTUPPALAYAM	</option>
+<option value="40">	AVANASHI	</option>
+<option value="40">	TIRUPPUR (NORTH)	</option>
+<option value="40">	TIRUPPUR (SOUTH)	</option>
+<option value="40">	PALLADAM	</option>
+<option value="40">	SULUR	</option>
+<option value="40">	KAVUNDAMPALAYAM	</option>
+<option value="40">	COIMBATORE (NORTH)	</option>
+<option value="40">	THONDAMUTHUR	</option>
+<option value="40">	COIMBATORE (SOUTH)	</option>
+<option value="40">	SINGANALLUR	</option>
+<option value="40">	KINATHUKADAVU	</option>
+<option value="40">	POLLACHI	</option>
+<option value="40">	VALPARAI	</option>
+<option value="40">	UDUMALPET	</option>
+<option value="40">	MADATHUKULAM	</option>
+<option value="40">	PALANI	</option>
+<option value="40">	ODDANCHATRAM	</option>
+<option value="40">	ATHOOR	</option>
+<option value="40">	NILAKOTTAI	</option>
+<option value="40">	NATHAM	</option>
+<option value="40">	DINDIGUL	</option>
+<option value="40">	VEDASANDUR	</option>
+<option value="40">	ARAVAKURICHI	</option>
+<option value="40">	KARUR	</option>
+<option value="40">	KRISHNARAYAPURAM	</option>
+<option value="40">	KULITHALAI	</option>
+<option value="40">	MANAPPARAI	</option>
+<option value="40">	SRIRANGAM	</option>
+<option value="40">	TIRUCHIRAPPALLI (WEST)	</option>
+<option value="40">	TIRUCHIRAPPALLI (EAST)	</option>
+<option value="40">	THIRUVERUMBUR	</option>
+<option value="40">	LALGUDI	</option>
+<option value="40">	MANACHANALLUR	</option>
+<option value="40">	MUSIRI	</option>
+<option value="40">	THURAIYUR	</option>
+<option value="40">	PERAMBALUR	</option>
+<option value="40">	KUNNAM	</option>
+<option value="40">	ARIYALUR	</option>
+<option value="40">	JAYANKONDAM	</option>
+<option value="40">	TITTAGUDI (SC)	</option>
+<option value="40">	VRIDHACHALAM	</option>
+<option value="40">	NEYVELI	</option>
+<option value="40">	PANRUTI	</option>
+<option value="40">	CUDDALORE	</option>
+<option value="40">	KURINJIPADI	</option>
+<option value="40">	BHUVANAGIRI	</option>
+<option value="40">	CHIDAMBARAM	</option>
+<option value="40">	KATTUMANNARKOIL(SC)	</option>
+<option value="40">	SIRKAZHI	</option>
+<option value="40">	MAYILADUTHURAI	</option>
+<option value="40">	POOMPUHAR	</option>
+<option value="40">	NAGAPATTINAM	</option>
+<option value="40">	KILVELUR	</option>
+<option value="40">	VEDARANYAM	</option>
+<option value="40">	THIRUTHURAIPOONDI	</option>
+<option value="40">	MANNARGUDI	</option>
+<option value="40">	THIRUVARUR	</option>
+<option value="40">	NANNILAM	</option>
+<option value="40">	THIRUVIDAIMARUDUR	</option>
+<option value="40">	KUMBAKONAM	</option>
+<option value="40">	PAPANASAM	</option>
+<option value="40">	THIRUVAIYARU	</option>
+<option value="40">	THANJAVUR	</option>
+<option value="40">	ORATHANADU	</option>
+<option value="40">	PATTUKKOTTAI	</option>
+<option value="40">	PERAVURANI	</option>
+<option value="40">	GANDHARVAKOTTAI	</option>
+<option value="40">	VIRALIMALAI	</option>
+<option value="40">	PUDUKKOTTAI	</option>
+<option value="40">	THIRUMAYAM	</option>
+<option value="40">	ALANGUDI	</option>
+<option value="40">	ARANTHANGI	</option>
+<option value="40">	KARAIKUDI	</option>
+<option value="40">	TIRUPPATTUR	</option>
+<option value="40">	SIVAGANGA	</option>
+<option value="40">	MANAMADURAI	</option>
+<option value="40">	MELUR	</option>
+<option value="40">	MADURAI EAST	</option>
+<option value="40">	SHOLAVANDAN	</option>
+<option value="40">	MADURAI NORTH	</option>
+<option value="40">	MADURAI SOUTH	</option>
+<option value="40">	MADURAI CENTRAL	</option>
+<option value="40">	MADURAI WEST	</option>
+<option value="40">	THIRUPARANKUNDRAM	</option>
+<option value="40">	THIRUMANGALAM	</option>
+<option value="40">	USILAMPATTI	</option>
+<option value="40">	ANDIPATTI	</option>
+<option value="40">	PERIYAKULAM	</option>
+<option value="40">	BODINAYAKANUR	</option>
+<option value="40">	CUMBUM	</option>
+<option value="40">	RAJAPALAYAM	</option>
+<option value="40">	SRIVILLIPUTHUR	</option>
+<option value="40">	SATTUR	</option>
+<option value="40">	SIVAKASI	</option>
+<option value="40">	VIRUDHUNAGAR	</option>
+<option value="40">	ARUPPUKKOTTAI	</option>
+<option value="40">	TIRUCHULI	</option>
+<option value="40">	PARAMAKUDI	</option>
+<option value="40">	TIRUVADANAI	</option>
+<option value="40">	RAMANATHAPURAM	</option>
+<option value="40">	MUDHUKULATHUR	</option>
+<option value="40">	VILATHIKULAM	</option>
+<option value="40">	THOOTHUKKUDI	</option>
+<option value="40">	TIRUCHENDUR	</option>
+<option value="40">	SRIVAIKUNTAM	</option>
+<option value="40">	OTTAPIDARAM	</option>
+<option value="40">	KOVILPATTI	</option>
+<option value="40">	SANKARANKOVIL	</option>
+<option value="40">	VASUDEVANALLUR	</option>
+<option value="40">	KADAYANALLUR	</option>
+<option value="40">	TENKASI	</option>
+<option value="40">	ALANGULAM	</option>
+<option value="40">	TIRUNELVELI	</option>
+<option value="40">	AMBASAMUDRAM	</option>
+<option value="40">	PALAYAMKOTTAI	</option>
+<option value="40">	NANGUNERI	</option>
+<option value="40">	RADHAPURAM	</option>
+<option value="40">	KANNIYAKUMARI	</option>
+<option value="40">	NAGERCOIL	</option>
+<option value="40">	COLACHEL	</option>
+<option value="40">	PADMANABHAPURAM	</option>
+<option value="40">	VILAVANCODE	</option>
+<option value="40">	KILLIYOOR	</option>
+
+		</select>
+		<br>
+		<label for="p_party">POLITICAL PARTY</label> 
+	    <select id="p_party" name="p_party"> 
+        <option value="0">ADMK</option>
+		<option value="1">DMK</option>
+		<option value="2">INC</option>
+		<option value="3">BJP</option>
+		<option value="4">IND</option>
+		<option value="5">CPI</option>
+		<option value="6">CPI(M)</option>
+		<option value="7">CPI(ML)(L)</option>
+		<option value="8">DMDK</option>
+		<option value="9">CPM</option>
+        </select>
+        <br>
+        <label for="gender">GENDER</label> 
+	    <select id="gender" name="gender"> 
+	    <option value="0">M</option> 
+	    <option value="1">F</option> 
+	    </select> 
+	    <br> 
+		<label for="age">AGE</label> 
+        <input type="text" id="age" name="age"> 
+        <br>
+        <label for="category">CATEGORY</label> 
+	    <select id="category" name="category"> 
+	    <option value="0">GEC</option>
+		<option value="1">GEN</option>
+		<option value="2">SC</option>
+		<option value="3">ST</option>
+	    </select>
+	    <br> 
+	<input type="submit" value="SUBMIT"> 
+</form> 
+</div> 
+</body> 
+</html> 
